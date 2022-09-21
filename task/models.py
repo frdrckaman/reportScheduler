@@ -25,6 +25,10 @@ class ScheduleTask(BaseUuidModel):
         verbose_name='Search variable',
         max_length=45,
     )
+    search_operator = models.CharField(
+        verbose_name='Search criteria/operators',
+        max_length=45,
+    )
     search_query = models.TextField(
         verbose_name='Query'
     )

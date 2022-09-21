@@ -18,6 +18,7 @@ class ScheduleTaskAdmin(BaseSimpleHistoryAdmin):
                     "report_name",
                     "report_frequency",
                     "search_variable",
+                    "search_operator",
                     "search_query",
                 ),
             },
