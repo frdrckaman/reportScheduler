@@ -41,6 +41,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_revision.apps.AppConfig',
+    'django_audit_fields.apps.AppConfig',
+    'logentry_admin',
+    'simple_history',
+    'task.apps.AppConfig',
 ]
 
 MIDDLEWARE = [
